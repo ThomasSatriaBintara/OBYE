@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_recommendation"
+        android:icon="@drawable/ic_recommendation"
+        android:title="Recommendation" />
+
+    <item
+        android:id="@+id/menu_plan"
+        android:icon="@drawable/ic_plan"
+        android:title="Plan" />
+
+    <item
+        android:id="@+id/menu_schedule"
+        android:icon="@drawable/ic_schedule"
+        android:title="Schedule" />
+
+    <item
+        android:id="@+id/menu_stories"
+        android:icon="@drawable/ic_stories"
+        android:title="Stories" />
+
+</menu>

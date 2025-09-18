@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">OBYE</string>
+
+    <!-- Sign In Page -->
+    <string name="sign_in_title">Sign In</string>
+    <string name="sign_in_email_hint">Email Address</string>
+    <string name="sign_in_password_hint">Password</string>
+    <string name="sign_in_forgot_password">Forgot Password?</string>
+    <string name="sign_in_button">Login</string>
+    <string name="sign_in_no_account">Don’t have an account? </string>
+    <string name="sign_in_signup_link">Sign Up</string>
+    <string name="sign_in_image">Sign In Illustration</string>
+
+    <!-- Sign Up Page -->
+    <string name="sign_up_title">Sign Up</string>
+    <string name="sign_up_email_hint">Email Address</string>
+    <string name="sign_up_password_hint">Password</string>
+    <string name="sign_up_button">Sign Up</string>
+    <string name="sign_up_have_account">Already have an account? </string>
+    <string name="sign_up_login_link">Login</string>
+    <string name="sign_up_image">Sign Up Illustration</string>
+
+    <string name="hi_welcome">Hi, Welcome!</string>
+    <string name="please_fill_data">In Order To Get Suitable Recommendations,\nPlease Fill In The Data First. Thank You!</string>
+
+    <string name="question1">How old are you?</string>
+    <string name="question2">What’s your height?</string>
+    <string name="question3">What’s your weight?</string>
+    <string name="question4">What is your Gender?</string>
+
+    <string name="question5">Is there a history of overweight in your family?</string>
+    <string name="question6">Do you consume high-calorie foods?</string>
+    <string name="question7">How often do you consume vegetables and fruit every week?</string>
+    <string name="question8">How many main meals do you consume each day?</string>
+
+    <string name="question9">Do you often eat between your main meals?</string>
+    <string name="question10">Do you smoke ?</string>
+    <string name="question11">How many times a day do you consume water?</string>
+    <string name="question12">Do you monitor your calorie consumption?</string>
+
+    <string name="question13">How many times a week do you do physical activity?</string>
+    <string name="question14">How much time do you spend using your tech devices every day?</string>
+    <string name="question15">Do you consume alcohol?</string>
+    <string name="question16">How frequently do you use transport?</string>
+
+    <string name="question17">How often have you had obesity-related check-ups in the past three months?</string>
+
+    <string name="next">Next</string>
+
+    <string name="result_title">Result</string>
+    <string name="result_normal">Congratulations! The detection results show that you are in the normal category. This means your weight is within a healthy range. Maintain a balanced diet and exercise routine to keep your body healthy. Continue this healthy lifestyle for long-term wellbeing.</string>
+
+    <string name="inspirational_stories">Inspirational Stories</string>
+    <string name="inspiration_image_desc">Image showing inspirational stories</string>
+    <string name="file_new">Add</string>
+    <string name="file_open">Data</string>
+    <string name="file_save">Save</string>
+    <string name="title">Title</string>
+    <string name="edit_file_hint">Description</string>
+    <string name="inspirationalstories">Inspirational Stories?</string>
+    <string name="inspirational">Inspirational Stories</string>
+    <string name="recomendation">Recomendation for you</string>
+
+
+
+    <string name="description">Description</string>
+    <string name="save">Save</string>
+    <string name="delete">Hapus</string>
+    <string name="date">Date</string>
+    <string name="message_undo">Batalkan menghapus item sebelumnya?</string>
+    <string name="message_ok">OK</string>
+    <string name="cancel">Batal</string>
+    <string name="empty">Field can not be blank</string>
+    <string name="update">Update</string>
+    <string name="change">Ubah</string>
+    <string name="add">Tambah</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="message_cancel">Apakah anda ingin membatalkan perubahan pada form?</string>
+    <string name="message_delete">Apakah anda yakin ingin menghapus item ini?</string>
+    <string name="added">Satu item berhasil ditambahkan</string>
+    <string name="changed">Satu item berhasil diubah</string>
+    <string name="deleted">Satu item berhasil dihapus</string>
+    <string name="add_note">add_notes\n</string>
+    <string name="schedule">Schedule</string>
+    <string name="underweight">Underweight</string>
+    <string name="recomendation_food">Recomendation Food</string>
+    <string name="normal">Normal</string>
+    <string name="desfoodnm">Full cream milk or high-calorie milk: Helps increase calories and protein. \n\n Fruit smoothies: Smoothies made from fruits such as banana, mango and avocado mixed with yoghurt or full-fat milk. \n\n Fresh fruit juice: Mango, banana or orange juice with honey added to increase calories. \n\n Milk tea or latte: Tea or coffee drinks with milk to increase calorie intake. \n\n Protein-based drinks: Protein supplements or protein-based milkshakes to increase protein consumption.</string>
+    <string name="descfoodov">Low carbohydrates: Non-starchy vegetables such as broccoli, spinach, zucchini, carrots and cabbage. \n\n Protein: Lean meat, fish, chicken, tempeh, tofu, nuts. \n\n Healthy fats: Avocado, olive oil, almonds (in moderation). \n\n Low-fat dairy products: Skimmed milk, low-fat yoghurt. \n\n Foods high in fibre: Fruits such as apples, pears and strawberries; and nuts and seeds. \n\n Avoid added sugar and processed foods.</string>
+    <string name="descfoodud">Complex carbohydrates: Brown rice, oatmeal, wholemeal bread, pasta, potatoes.\n\n High protein: Eggs, lean meat, fish, chicken, tempeh, tofu, nuts. \n\n Healthy fats: Avocado, olive oil, nuts, chia seeds, almonds. \n\n High-fat dairy products: Cheese, full cream milk, high-fat yoghurt. \n\n Fruits and vegetables: Banana, mango, papaya, apple, spinach, broccoli, carrot.</string>
+    <string name="descfoodnmm">Carbohydrates: Healthy carbohydrate sources such as brown rice, quinoa, wholemeal bread, potatoes and vegetables. \n\n Protein: Fish, chicken, eggs, beans, and tempeh tofu. \n\n Healthy fats: Olive oil, avocado, almonds, fatty fish (salmon, sardines). \n\n Vegetables and fruits: Various green vegetables (spinach, kale), and fruits with high vitamin C content (oranges, kiwi).</string>
+    <string name="descfoodob">Low carb: Green vegetables (spinach, kale, mustard greens), broccoli, cauliflower, zucchini, carrots. \n\n Protein: Fish (salmon, tuna), skinless chicken breast, tempeh, tofu, eggs. \n\n Healthy fats: Olive oil, almonds (in moderation), chia seeds, flax seeds. \n\n High fibre: High-fibre fruits (apples, pears, berries), nuts and seeds.</string>
+    <string name="tob">Obesity</string>
+    <string name="tov">Overweight</string>
+    <string name="recdrinktext">Recomendation Drink</string>
+    <string name="descdrinkud">Full cream milk or high-calorie milk: Helps increase calories and protein. \n\n Fruit smoothies: Smoothies made from fruits such as banana, mango and avocado mixed with yoghurt or full-fat milk. \n\n Fresh fruit juice: Mango, banana or orange juice with honey added to increase calories. \n\n Milk tea or latte: Tea or coffee drinks with milk to increase calorie intake. \n\n Protein-based drinks: Protein supplements or protein-based milkshakes to increase protein consumption.</string>
+    <string name="descdrinknm">Water: Essential for maintaining hydration and general body health. \n\n Green tea: Rich in antioxidants and can help boost metabolism. \n\n Fresh fruit juice: Juices with little added sugar, such as orange, apple or berry juice. \n\n Coconut water: Refreshing and hydrating, rich in electrolytes. \n\n Low-fat dairy-based drinks: Skimmed milk or low-fat yoghurt</string>
+    <string name="overweight">Overweight</string>
+    <string name="descdrinkov">Cardio exercise: Fast walking, jogging, cycling, swimming or treadmill for effective calorie burning. \n\n High-intensity interval training (HIIT): Combines periods of intense activity with recovery periods for maximum calorie burn in a short period of time. \n\n Strength training: Lift weights at light to moderate intensity to increase muscle mass and metabolism. \n\n Zumba or aerobics: A fun, full-body workout to increase stamina and calorie burn. \n\n Flexibility and mobility training: Yoga or pilates to reduce the risk of injury, improve flexibility and balance.</string>
+    <string name="obesity">Obesity</string>
+    <string name="descdrinkob">Water: Drinking enough water is essential for boosting metabolism and controlling hunger. \n\n Green tea: Known to aid fat burning and boost metabolism. \n\n Herbal tea: Teas such as chamomile or peppermint can aid digestion and reduce hunger. \n\n Infused water: Naturally flavoured water from fruits like lemon or cucumber to aid hydration with minimal calories. \n\n Warm lemon water: Can help detoxify the body and boost metabolism. \n\n Green vegetable juices: Juice from vegetables that are low in calories and high in fibre, such as spinach and celery.</string>
+    <string name="recomendation_sport">Recomendation Sport</string>
+    <string name="descsportud">Strength training: Weight lifting, push-ups, squats, deadlifts, and other strength exercises to build muscle. \n\n Upper body exercises: Dumbbell presses, pull-ups, barbell rows to increase muscle mass in the upper body. \n\n Lower body exercises: Squats, lunges, leg presses to build leg muscles. \n\n Core exercises: Plank, Russian twist to strengthen core muscles. \n\n HIIT (High-Intensity Interval Training): Although high-intensity, HIIT can help boost metabolism without compromising muscle mass if done the right way.</string>
+    <string name="descsportnm">Strength training: Lift light to moderate weights to maintain muscle strength. \n\n Moderate cardio: Running, cycling, swimming or brisk walking to maintain heart health and fitness. \n\n Yoga or Pilates: Good flexibility exercises for balance, core strength and stress reduction. \n\n Light interval training (LIIT): A low-intensity workout that can increase stamina without the risk of overexertion. \n\n Team or social sports: Football, basketball or other fun activities that involve full-body movement.</string>
+    <string name="descsportov">Cardio exercise: Fast walking, jogging, cycling, swimming or treadmill for effective calorie burning. \n\n High-intensity interval training (HIIT): Combines periods of intense activity with recovery periods for maximum calorie burn in a short period of time. \n\n Strength training: Lift weights at light to moderate intensity to increase muscle mass and metabolism. \n\n Zumba or aerobics: A fun, full-body workout to increase stamina and calorie burn. \n\n Flexibility and mobility training: Yoga or pilates to reduce the risk of injury, improve flexibility and balance.</string>
+    <string name="descsportob">Low to moderate cardio: Brisk walking, swimming or cycling can provide a good cardiovascular workout without putting excessive stress on the joints. \n\n Low-intensity interval training (LIIT): Low-intensity interval training that is more suitable for gradually improving fitness. \n\n Strength training: Using your own body (e.g. push-ups, squats) or light equipment to strengthen muscles and help burn calories. \n\n Pilates: Focuses on improving core strength and body stability, as well as improving balance and flexibility. \n\n Low-intensity exercises such as leisurely walking or swimming to improve endurance and calorie burning.</string>
+    <string name="fdsud">UNDERWEIGHT</string>
+    <string name="fdssfood">Food</string>
+    <string name="normalfds">NORMAL</string>
+    <string name="sportfds">Sport</string>
+    <string name="sporttfdss">SPORT</string>
+    <string name="drinkkfdss">DRINK</string>
+    <string name="drinkfds">Drink</string>
+    <string name="foodfds">FOOD</string>
+    <string name="header_image">Header Image</string>
+    <string name="back">Back</string>
+    <string name="overweightfds">OVERWEIGHT</string>
+    <string name="obesityfds">OBESITY</string>
+
+
+</resources>

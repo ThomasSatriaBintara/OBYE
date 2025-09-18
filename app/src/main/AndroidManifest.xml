@@ -1,0 +1,111 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OBYE"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".splash.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".login.SignInActivity" />
+        <activity android:name=".login.SignUpActivity" />
+        <activity android:name=".inputdata.InputDataActivity" />
+        <activity android:name=".result.ResultActivity"/>
+
+        <activity android:name=".recommendation.RecommendationActivity"/>
+        <activity android:name=".recommendation.RecFdsUnderweight"/>
+        <activity android:name=".recommendation.RecFdsNormal"/>
+        <activity android:name=".recommendation.RecFdsOverweight"/>
+        <activity android:name=".recommendation.RecFdsObesity"/>
+        <activity android:name=".recommendation.TRecFoodUnderweight"/>
+        <activity android:name=".recommendation.TRecFoodNormal"/>
+        <activity android:name=".recommendation.TRecFoodOverweight"/>
+        <activity android:name=".recommendation.TRecFoodObesity"/>
+        <activity android:name=".recommendation.TRecDrinkUnderweight"/>
+        <activity android:name=".recommendation.TRecDrinkNormal"/>
+        <activity android:name=".recommendation.TRecDrinkOverweight"/>
+        <activity android:name=".recommendation.TRecDrinkObesity"/>
+        <activity android:name=".recommendation.TRecSportUnderweight"/>
+        <activity android:name=".recommendation.TRecSportNormal"/>
+        <activity android:name=".recommendation.TRecSportOverweight"/>
+        <activity android:name=".recommendation.TRecSportObesity"/>
+
+        <activity
+            android:name=".home.HomeActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".plan.PlanActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".Stories.StoriesActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".Stories.StoriesCrystalActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".Stories.StoriesGwilymActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".Stories.StoriesBonnieActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".plan.PlanInputActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".plan.PlanInputFood"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".plan.PlanInputSport"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".uischedule.main.MainActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".uischedule.insert.NoteAddUpdateActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+    </application>
+
+</manifest>

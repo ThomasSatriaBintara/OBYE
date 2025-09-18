@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/layout_width"
+    android:layout_height="@dimen/layout_height"
+    tools:context=".Stories.StoriesCrystalActivity"
+    android:background="@drawable/stories_crystal_background">
+
+    <ImageView
+        android:id="@+id/icbackstCrystal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:maxWidth="40dp"
+        android:maxHeight="40dp"
+        android:src="@drawable/ic_back" />
+
+    <TextView
+        android:id="@+id/crystalText"
+        android:layout_width="383dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="300dp"
+        android:fontFamily="@font/plus_jakarta_sans_bold"
+        android:text="Crystal Benes Lost 201 Lbs"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/crystaldescText"
+        android:layout_width="356dp"
+        android:layout_height="278dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="350dp"
+        android:fontFamily="@font/plus_jakarta_sans_bold"
+        android:text="Crystal Benes spent much of her life struggling with obesity, reaching 376 lbs by the age of 25. Realizing her choices had led her to this point, she took a bold step on April 2, 2018, by joining a local weight loss program in Fort Wayne, Indiana. With the help of a personal trainer, nutrition coaching, and boot camp classes, she shed 100 lbs in 15 weeks. The real challenge came when the program ended, and she had to sustain her progress independently. Embracing a new lifestyle of daily workouts and a strict nutrition plan, Crystal lost a total of 200 lbs within ten months. Her journey, marked by immense perseverance, transformed her life from a state of depression to one of joy and fulfillment, proving that the most challenging paths often lead to the most beautiful destinations."
+        android:textColor="@color/black"
+        android:textSize="13sp" />
+
+</RelativeLayout>

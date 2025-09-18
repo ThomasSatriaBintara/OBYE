@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/layout_width"
+    android:layout_height="@dimen/layout_height"
+    tools:context=".plan.PlanActivity"
+    android:background="@drawable/plan_background">
+
+    <ImageView
+        android:id="@+id/icbackPlan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:maxWidth="40dp"
+        android:maxHeight="40dp"
+        android:src="@drawable/ic_back" />
+
+    <TextView
+        android:id="@+id/helloText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="364dp"
+        android:fontFamily="@font/plus_jakarta_sans_bold"
+        android:textSize="27dp"
+        android:textColor="@color/white"
+        android:text="Hello!" />
+
+
+    <TextView
+        android:id="@+id/wtsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="404dp"
+        android:fontFamily="@font/plus_jakarta_sans_bold"
+        android:text="What’s Up Today?"
+        android:textColor="@color/white"
+        android:textSize="27dp" />
+
+    <ImageView
+        android:id="@+id/foodplanView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/food_plan" />
+
+    <ImageView
+        android:id="@+id/drinkplanView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="210dp"
+        android:src="@drawable/drink_plan" />
+
+    <ImageView
+        android:id="@+id/sportplanView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="630dp"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/sport_plan" />
+
+</RelativeLayout>

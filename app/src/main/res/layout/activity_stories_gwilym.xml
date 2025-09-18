@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/layout_width"
+    android:layout_height="@dimen/layout_height"
+    tools:context=".Stories.StoriesGwilymActivity"
+    android:background="@drawable/stories_gwilym_background">
+
+    <ImageView
+        android:id="@+id/icbackstGwilym"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:maxWidth="40dp"
+        android:maxHeight="40dp"
+        android:src="@drawable/ic_back" />
+
+    <TextView
+        android:id="@+id/gwilymText"
+        android:layout_width="383dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="300dp"
+        android:fontFamily="@font/plus_jakarta_sans_bold"
+        android:text="Gwilym Pugh Lost 93 Lbs"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/gwilymdescText"
+        android:layout_width="356dp"
+        android:layout_height="278dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="350dp"
+        android:fontFamily="@font/plus_jakarta_sans_bold"
+        android:text="Once leading a sedentary life at 280 lbs, Gwilym Pugh embarked on a transformative journey that spanned five to seven years, filled with trial and error. His persistence paid off, as he lost 93 lbs and discovered a new career as a top model and an ambassador for David Beckham's grooming brand, House 99. Focusing on a diet rich in micronutrients and healthy fats, along with manageable exercise routines, Pugh overcame his physical limitations by incorporating low-intensity cardio and aiming for 20,000 steps daily. This incredible transformation not only reshaped his body but also revolutionized his life, enhancing his physical and mental health and opening doors to personal and professional success."
+        android:textColor="@color/black"
+        android:textSize="13sp" />
+
+</RelativeLayout>

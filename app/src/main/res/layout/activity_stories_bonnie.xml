@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/layout_width"
+    android:layout_height="@dimen/layout_height"
+    tools:context=".Stories.StoriesBonnieActivity"
+    android:background="@drawable/stories_bonni_background">
+
+    <ImageView
+        android:id="@+id/icbackstBonnie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:maxWidth="40dp"
+        android:maxHeight="40dp"
+        android:src="@drawable/ic_back" />
+
+    <TextView
+        android:id="@+id/bonnieText"
+        android:layout_width="383dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="300dp"
+        android:fontFamily="@font/plus_jakarta_sans_bold"
+        android:text="Bonnie Wiles Lost 162 Lbs"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/bonniedescText"
+        android:layout_width="356dp"
+        android:layout_height="278dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="350dp"
+        android:fontFamily="@font/plus_jakarta_sans_bold"
+       android:text="Bonnie Wiles' weight struggles began in her teens, and by 18, she was over 200 lbs. Despite numerous diet attempts, her weight continued to rise after marriage and having four children. The turning point came in 2011 with the birth of her first grandson, inspiring her to get healthy. Joining TOPS, a weight loss support group, and using MyFitnessPal to track her intake and activity, Bonnie lost over 50 lbs, bringing her down to 148 lbs. Her newfound lifestyle has brought immense joy and confidence, enabling her to enjoy activities like traveling with her family without any limitations. Bonnie's story is a testament to the power of commitment and the transformative impact of embracing a healthier lifestyle."
+        android:textColor="@color/black"
+        android:textSize="13sp" />
+
+</RelativeLayout>

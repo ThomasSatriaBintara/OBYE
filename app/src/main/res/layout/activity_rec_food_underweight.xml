@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/layout_width"
+    android:layout_height="@dimen/layout_height"
+    tools:context=".recommendation.TRecFoodUnderweight"
+   android:background="@color/bgrec">
+
+    <ImageView
+        android:id="@+id/recfoodd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="40dp"
+        android:maxHeight="40dp"
+        android:src="@drawable/recfood" />
+
+    <ImageView
+        android:id="@+id/backrecfood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:maxWidth="40dp"
+        android:maxHeight="40dp"
+        android:src="@drawable/ic_back" />
+
+    <TextView
+        android:id="@+id/titlefoodudText"
+        android:layout_width="383dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="290dp"
+        android:fontFamily="@font/plus_jakarta_sans_bold"
+        android:text="@string/underweight"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/recfoodudText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="340dp"
+        android:fontFamily="@font/plus_jakarta_sans_bold"
+        android:text="@string/recomendation_food"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/fooduddescText"
+        android:layout_width="354dp"
+        android:layout_height="458dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="370dp"
+        android:fontFamily="@font/plus_jakarta_sans_bold"
+        android:text="@string/descfoodud"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+</RelativeLayout>

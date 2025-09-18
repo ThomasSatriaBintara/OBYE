@@ -1,0 +1,6 @@
+
+<resources>
+    <dimen name="layout_width">393dp</dimen>
+    <dimen name="layout_height">852dp</dimen>
+    <dimen name="tiny_margin">8dp</dimen>
+</resources>
